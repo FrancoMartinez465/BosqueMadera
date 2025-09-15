@@ -1,0 +1,32 @@
+{
+  "name": "bosque-madera-api",
+  "version": "1.0.0",
+  "description": "API para la gestión de palos y materiales en Bosque Madera 🌲🪵",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "express",
+    "sequelize",
+    "palos",
+    "materiales",
+    "api"
+  ],
+  "author": "Bosque Madera",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.12.2",
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.11.3",
+    "sequelize": "^6.37.3",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
